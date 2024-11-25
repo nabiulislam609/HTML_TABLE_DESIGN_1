@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table {
+            border: 1px solid red;
+            width: 100%;
+        }
+        tr, th, td {
+            border: 1px solid green;
+            width: 100px;
+            height: 40px;
+        }
+        #red {
+            background-color: red;
+        }
+        #blue {
+            background-color: blue;
+        }
+        #green {
+            background-color: green;
+        }
+        #lime-green {
+            background-color: limegreen;
+        }
+        #light-pink {
+            background-color: lightpink;
+        }
+        #teal {
+            background-color: teal;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <td id="red" colspan="2"></td>
+                <td id="blue" colspan=""></td>
+                <td id="red" colspan=""></td>
+                <td id="red" colspan="2"></td>
+                <td id="green" colspan="2"></td>
+            </tr>
+            <tr>
+                <td id="green" colspan="2" rowspan="2"></td>
+                <td id="lime-green" colspan="2" rowspan="4"></td>
+                <td id="blue" colspan="2" rowspan="4"></td>
+                <td id="light-pink" colspan="2" rowspan="4"></td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td id="teal" colspan="2" rowspan="2"></td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td id="red" colspan="3" rowspan="3"></td>
+                <td id="blue" colspan="1" rowspan="3"></td>
+                <td id="red" colspan="4" rowspan="3"></td>
+            </tr>
+            <tr></tr>
+            <tr></tr>
+            <tr>
+                <td id="green" colspan="2" rowspan="2"></td>
+                <td id="red" colspan="2" rowspan="2"></td>
+                <td id="light-pink" colspan="2" rowspan="2"></td>
+                <td id="blue" colspan="2" rowspan="2"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
